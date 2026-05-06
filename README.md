@@ -1,10 +1,10 @@
-# WEBSITE CLONING CLI AGENT
+# .✦ ݁˖ WEBSITE CLONING CLI AGENT .✦ ݁˖
 
 This is my submission for Assignment 02 from the GenAI Engineering course.  
 The project is a CLI AI agent that follows the **ReAct pattern** (Reasoning + Acting) to complete tasks step by step using tools.
 ---
 
-## What it can do
+## What it can do ☆
 
 The agent can:
 
@@ -20,7 +20,7 @@ The main demo task is cloning the Scaler Academy homepage with a Header, Hero se
 
 ---
 
-## ReAct Workflow
+## ReAct Workflow ☆
 
 The agent works in a loop:
 ```
@@ -49,7 +49,7 @@ Each step, the model returns a single JSON object like this:
 
 ---
 
-## Available Tools
+## Available Tools ☆
 
 | Tool | What it does |
 |------|-------------|
@@ -67,7 +67,7 @@ The weather and GitHub tools are things I added myself — they were in the refe
 
 ---
 
-## Setting it up
+## Setting it up ☆
 
 You need Node.js. This agent uses a **Multi-Provider Waterfall system**. You can provide keys for Groq, OpenRouter, and Gemini all at once. The agent will automatically use the fastest free model (Groq) and fallback instantly if it hits rate limits.
 
@@ -91,12 +91,12 @@ node agent.js
 
 ---
 
-## Example Run
+## Example Run ☆
 
 <img width="100%" alt="Scaler CLI Agent Demo" src="./assets/image.png" />
----
 
-## Generated Scaler Clone
+
+## Generated Scaler Clone ☆
 
 The generated page has:
 
@@ -109,7 +109,7 @@ Colors are based on the actual Scaler brand — dark background (`#0D0D1A`), the
 
 ---
 
-## Files in this project
+## Files in this project ☆
 
 ```
 scaler-cli-agent/
@@ -124,7 +124,7 @@ scaler-cli-agent/
 
 ---
 
-## Packages used
+## Packages used ☆
 
 - `openai` — to call Groq and OpenRouter models seamlessly
 - `@google/generative-ai` — to call the Gemini fallback models
@@ -134,7 +134,7 @@ scaler-cli-agent/
 
 ---
 
-## Author
+## Author ☆
 
 - Ankita Tripathi
 - 24bcs10062 
