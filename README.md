@@ -93,37 +93,6 @@ node agent.js
 
 ## Example Run
 
-```
-╔══════════════════════════════════════════════════════════╗
-║   🚀  Scaler CLI Agent  ·  Groq + OpenRouter + Gemini  ║
-║   ReAct Loop : THINK → TOOL → OBSERVE → OUTPUT           ║
-╚══════════════════════════════════════════════════════════╝
-
-You can ask me anything! Examples:
-  • "What's the weather in Mumbai?"
-  • "Show me GitHub info for torvalds"
-  • "Create a todo app with HTML, CSS and JS"
-  • "Clone the Scaler Academy website with Header, Hero and Footer"
-
-You: Clone the Scaler Academy website with Header, Hero section and Footer
-
-🤖 Agent started...
-
-💭 THINK: The user wants to clone the Scaler website. I should read the live site first to get the content.
-🔧 TOOL: fetchWebpage
-   📋 OBSERVE: # Become the Professional Built for the Next Decade in AI...
-💭 THINK: I'll now generate the clone based on this content.
-🔧 TOOL: writeFile
-   📋 OBSERVE: File written: /path/to/scaler_clone/index.html (18500 bytes)
-🔧 TOOL: listFiles
-   📋 OBSERVE: 📄 index.html
-🔧 TOOL: openInBrowser
-   📋 OBSERVE: Opened in browser: /path/to/scaler_clone/index.html
-
-✅ OUTPUT:
-The Scaler Academy clone is ready and open in your browser!
-```
-
 <img width="100%" alt="Scaler CLI Agent Demo" src="./assets/image.png" />
 ---
 
