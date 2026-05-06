@@ -1,0 +1,28 @@
+{
+  "name": "scaler-cli-agent",
+  "version": "1.0.0",
+  "description": "General-purpose AI CLI agent using Gemini + ReAct loop. Can answer questions, create websites, run commands, fetch live data, and more.",
+  "type": "module",
+  "main": "agent.js",
+  "scripts": {
+    "start": "node agent.js",
+    "dev": "node --watch agent.js"
+  },
+  "keywords": [
+    "ai-agent",
+    "genai",
+    "react-loop",
+    "gemini",
+    "cli",
+    "scaler"
+  ],
+  "author": "Scaler GenAI Assignment 02",
+  "license": "MIT",
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "open": "^10.1.0",
+    "openai": "^4.52.7"
+  }
+}
