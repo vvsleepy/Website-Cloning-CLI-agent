@@ -2,6 +2,7 @@
 
 This is my submission for Assignment 02 from the GenAI Engineering course.  
 The project is a CLI AI agent that follows the **ReAct pattern** (Reasoning + Acting) to complete tasks step by step using tools.
+
 ---
 
 ## What it can do ☆
